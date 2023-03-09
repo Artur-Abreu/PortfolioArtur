@@ -1,5 +1,6 @@
 import { Container } from "../../styles/global";
-import { BiasiPhoto } from "../BiasiPhoto";
+import gif from 'public/assets/gif.gif';
+import Image from "next/image";
 
 import * as S from "./styles";
 
@@ -10,12 +11,14 @@ export const Hero = () => {
                 <S.Wrapper>
                     <div>
                         <S.Title>
-                            Olá, me chamo <br /> <S.Span>Lucas Biasi.</S.Span>
+                            Olá, me chamo <br /> <S.Span>Artur Abreu</S.Span>
                         </S.Title>
-                        <S.Paragraph>Desenvolvedor Web Front-End.</S.Paragraph>
+                        <S.Paragraph>Desenvolvedor Web Front-End/Mobile</S.Paragraph>
                     </div>
 
-                    <BiasiPhoto />
+                <Image src={gif} alt="Descrição do gif animado" />
+
+                    
                 </S.Wrapper>
             </S.ContentHero>
         </Container>

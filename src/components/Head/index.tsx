@@ -4,24 +4,24 @@ export function HeadDocument() {
   return (
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Lucas Biasi | Front-end Developer | Portfolio</title>
+      <title>Artur Abreu | Front-end Developer | Portfolio</title>
       <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
       <meta
         name="title"
-        content="Lucas Biasi | Front-end Developer | Portfolio"
+        content="Artur Abreu | Front-end Developer | Portfolio"
       />
       <meta
         name="description"
-        content="Me chamo Lucas Biasi e este é meu portfolio"
+        content="Me chamo Artur Abreu e este é meu portfolio"
       />
       <meta name="robots" content="index, follow" />
 
-      <meta name="author" content="Lucas Biasi" />
+      <meta name="author" content="Artur Abreu" />
       <meta
         name="keywords"
-        content="lucas biasi biasi developer, 
+        content="Artur Abreu developer, 
           desenvolvedor, programador, front-end, developer, typescript,
-          reactjs, nextjs, caixetadev, caixeta portfolio, lucas biasi portfolio,
+          reactjs, nextjs, Artur Abreu portfolio,
           developer front-end, javascript, biasi, desenvolver sites"
       />
       <meta property="og:url" content="https://biasiportfolio.vercel.app/" />
@@ -30,7 +30,7 @@ export function HeadDocument() {
         property="og:title"
         content="Biasi | Front-end Developer | Portfolio"
       />
-      <link rel="canonical" href="https://biasiportfolio.vercel.app/" />
+      <link rel="canonical" href="" />
       <meta
         property="og:description"
         content="Especialista em desenvolvimento Front-End"
